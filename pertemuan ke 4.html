@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <title>pertemuan ke 4</title>
+</head>
+<body>
+    <h2>belajar membuat percabangan if/else</h2>
+    <p id="aic"></p>
+</body>
+
+<script> 
+    /*let year = prompt('Tahun berapa sekarang ?')
+    alert(year == 2022 ? "benar": "salah");
+    ini if else di alert */
+
+    /*const jam = new Date().getHours();
+    let waktu;
+    if (jam < 18){
+        waktu = "selamat pagi";
+    }else {
+        waktu =  "selamat malam";
+    }
+    document.getElementById("aic").innerHTML = "hasil:" + waktu ; 
+    ini if else
+    */
+
+   var jawaban = prompt("pilih hadiah")
+   var hadiah = "";
+
+   switch(jawaban){
+   case "1": hadiah = "pc"; break;
+   case "2": hadiah = "Flasdisk"; break;
+   case "3": hadiah = "SSD"; break; 
+   default: document.write("isinya ") }
+   if (hadiah === "") {
+    document.write("kosong");
+   } else {
+    document.write("kamu dapat " + hadiah);   }
+</script>
+</html>

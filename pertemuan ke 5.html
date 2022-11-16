@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>function</title>
+</head>
+<body>
+    <h2>latihan membuat function</h2>
+    <p id="hasil"></p>
+    <button onclick="angka(10,2)">Click me</button>
+</body>
+<script>
+    /* function
+
+    function aksi (a,b,c){
+    return a * b - c
+    }
+    document.getElementById("aic").innerHTML = aksi(5,5,5) */
+    
+    /* multiple function
+
+    function angka1(a,b){
+        return a + b 
+    }
+    function angka2(c,d){
+        return c - d
+    }
+    function angka3(e,f){
+        return e * f
+    }
+    document.getElementById("hasil").innerHTML = angka1(5,10) + "," + angka2(5,10) + "," + angka3(5,10)*/
+
+    function angka(a,b){
+        var x = a + b;
+    document.getElementById("hasil").innerHTML = "hasil dari function adalah " + x;
+    }
+</script>
+</html>
